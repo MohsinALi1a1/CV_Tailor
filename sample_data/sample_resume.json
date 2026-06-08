@@ -1,0 +1,99 @@
+{
+    "name": "Jane Doe",
+    "email": "jane.doe@email.com",
+    "phone": "+1-555-0100",
+    "location": "San Francisco, CA",
+    "linkedin": "linkedin.com/in/janedoe",
+    "website": "janedoe.dev",
+    "summary": "Senior Software Engineer with 8+ years of experience in building scalable web applications and leading cross-functional teams. Expert in Python, cloud architecture, and DevOps practices. Passionate about clean code, mentoring, and delivering impactful solutions.",
+    "skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Microservices",
+        "REST APIs",
+        "GraphQL",
+        "Agile/Scrum"
+    ],
+    "experience": [
+        {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "location": "San Francisco, CA",
+            "start_date": "Jan 2021",
+            "end_date": "Present",
+            "bullets": [
+                "Led a team of 6 engineers to deliver a microservices platform serving 2M+ daily active users",
+                "Reduced API response time by 40% through database query optimization and caching strategies",
+                "Implemented CI/CD pipelines using GitHub Actions, reducing deployment time from 2 hours to 15 minutes",
+                "Designed event-driven architecture using Kafka, processing 1M+ events per day",
+                "Mentored 3 junior developers through structured code review process, accelerating their growth"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "location": "Remote",
+            "start_date": "Jun 2018",
+            "end_date": "Dec 2020",
+            "bullets": [
+                "Built RESTful APIs handling 500K+ daily requests using Python and FastAPI",
+                "Designed and implemented real-time notification system using WebSockets serving 100K users",
+                "Migrated legacy monolith to microservices architecture, reducing infrastructure costs by 30%",
+                "Developed automated testing suite achieving 95% code coverage",
+                "Collaborated with product team to define technical specifications for 15+ features"
+            ]
+        },
+        {
+            "title": "Junior Developer",
+            "company": "WebAgency Co.",
+            "location": "Los Angeles, CA",
+            "start_date": "Aug 2016",
+            "end_date": "May 2018",
+            "bullets": [
+                "Developed responsive web applications using React and Node.js for 20+ clients",
+                "Optimized database queries reducing page load time by 60%",
+                "Implemented authentication and authorization using OAuth 2.0 and JWT"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "B.S. Computer Science",
+            "institution": "University of California, Berkeley",
+            "location": "Berkeley, CA",
+            "graduation_date": "May 2016",
+            "gpa": "3.8"
+        }
+    ],
+    "certifications": [
+        "AWS Solutions Architect – Associate (2023)",
+        "Google Cloud Professional Data Engineer (2022)",
+        "Certified Kubernetes Administrator (CKA) (2021)"
+    ],
+    "projects": [
+        {
+            "name": "CodeReviewBot",
+            "description": "Open-source CLI tool for automated code review with AI-powered suggestions. 500+ GitHub stars.",
+            "technologies": "Python, Click, OpenAI API, GitHub API"
+        },
+        {
+            "name": "TaskFlow",
+            "description": "Real-time task management platform with drag-and-drop interface and team collaboration.",
+            "technologies": "React, TypeScript, Node.js, PostgreSQL, WebSockets"
+        }
+    ],
+    "languages": [
+        "English (Native)",
+        "Spanish (Conversational)",
+        "Mandarin (Basic)"
+    ]
+}

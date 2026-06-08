@@ -1,0 +1,50 @@
+Jane Doe
+jane.doe@email.com | +1-555-0100 | San Francisco, CA | linkedin.com/in/janedoe | janedoe.dev
+
+Summary
+Senior Software Engineer with 8+ years of experience in building scalable web applications and leading cross-functional teams. Expert in Python, cloud architecture, and DevOps practices. Passionate about clean code, mentoring, and delivering impactful solutions.
+
+Skills
+Python, JavaScript, TypeScript, React, Node.js, PostgreSQL, Redis, AWS, Docker, Kubernetes, CI/CD, Microservices, REST APIs, GraphQL, Agile/Scrum
+
+Experience
+Senior Software Engineer – TechCorp Inc.
+San Francisco, CA  |  Jan 2021 – Present
+  • Led a team of 6 engineers to deliver a microservices platform serving 2M+ daily active users
+  • Reduced API response time by 40% through database query optimization and caching strategies
+  • Implemented CI/CD pipelines using GitHub Actions, reducing deployment time from 2 hours to 15 minutes
+  • Designed event-driven architecture using Kafka, processing 1M+ events per day
+  • Mentored 3 junior developers through structured code review process, accelerating their growth
+
+Software Engineer – StartupXYZ
+Remote  |  Jun 2018 – Dec 2020
+  • Built RESTful APIs handling 500K+ daily requests using Python and FastAPI
+  • Designed and implemented real-time notification system using WebSockets serving 100K users
+  • Migrated legacy monolith to microservices architecture, reducing infrastructure costs by 30%
+  • Developed automated testing suite achieving 95% code coverage
+  • Collaborated with product team to define technical specifications for 15+ features
+
+Junior Developer – WebAgency Co.
+Los Angeles, CA  |  Aug 2016 – May 2018
+  • Developed responsive web applications using React and Node.js for 20+ clients
+  • Optimized database queries reducing page load time by 60%
+  • Implemented authentication and authorization using OAuth 2.0 and JWT
+
+Education
+B.S. Computer Science – University of California, Berkeley
+Berkeley, CA  |  May 2016  |  GPA: 3.8
+
+Certifications
+  • AWS Solutions Architect – Associate (2023)
+  • Google Cloud Professional Data Engineer (2022)
+  • Certified Kubernetes Administrator (CKA) (2021)
+
+Projects
+CodeReviewBot (Python, Click, OpenAI API, GitHub API)
+  Open-source CLI tool for automated code review with AI-powered suggestions. 500+ GitHub stars.
+
+TaskFlow (React, TypeScript, Node.js, PostgreSQL, WebSockets)
+  Real-time task management platform with drag-and-drop interface and team collaboration.
+
+Languages
+English (Native), Spanish (Conversational), Mandarin (Basic)

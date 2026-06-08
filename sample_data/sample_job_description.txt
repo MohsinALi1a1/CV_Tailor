@@ -1,0 +1,34 @@
+Senior Backend Engineer - CloudScale Technologies
+Location: San Francisco, CA (Hybrid)
+Salary: 180,000 - 220,000
+
+About Us:
+CloudScale Technologies is a fast-growing cloud infrastructure company serving
+Fortune 500 clients. We are building the next generation of scalable, reliable
+cloud services.
+
+Requirements:
+- 5+ years of backend development experience
+- Strong proficiency in Python and Go
+- Experience with microservices architecture and distributed systems
+- Proficiency with PostgreSQL and Redis
+- Experience with AWS services (EC2, S3, Lambda, ECS, SQS)
+- Knowledge of Docker and Kubernetes for container orchestration
+- Experience with CI/CD pipelines (GitHub Actions, Jenkins, or similar)
+- Strong understanding of RESTful API design and best practices
+- Familiarity with monitoring tools (Datadog, Prometheus, Grafana)
+
+Preferred Qualifications:
+- Experience with event-driven architecture (Kafka, RabbitMQ)
+- GraphQL API experience
+- Terraform or infrastructure-as-code experience
+- Experience leading engineering teams of 3+ people
+- Contributions to open-source projects
+
+Responsibilities:
+- Design and implement scalable, fault-tolerant backend services
+- Optimize database performance and complex queries
+- Mentor junior engineers and participate in hiring
+- Participate in architecture design reviews and technical planning
+- Write comprehensive unit and integration tests
+- Collaborate with frontend, DevOps, and data engineering teams
