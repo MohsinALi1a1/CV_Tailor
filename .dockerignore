@@ -1,0 +1,46 @@
+# Source control / IDE
+.git
+.gitignore
+.github
+.vscode
+.idea
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+htmlcov
+.tox
+
+# Local virtualenvs
+.venv
+venv
+env
+
+# Local secrets / data
+.env
+.env.local
+outputs/
+*.wav
+*.mp3
+*.ogg
+
+# Test artifacts
+tests/__snapshots__
+
+# Docs / dev-only files
+docs
+*.md
+!README.md
+
+# Docker meta
+Dockerfile
+docker-compose*.yml
+.dockerignore

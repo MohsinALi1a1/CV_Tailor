@@ -1,0 +1,38 @@
+services:
+  cv-tailor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cv-tailor:latest
+    container_name: cv-tailor
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      # Required for AI features. Pass via shell env or a .env file at the
+      # compose root (never bake into the image).
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      DEEPGRAM_API_KEY:  ${DEEPGRAM_API_KEY:-}
+      LOG_LEVEL:         ${LOG_LEVEL:-INFO}
+      # Upload guards (mirrored by Streamlit + the app's own validator)
+      CV_TAILOR_MAX_UPLOAD_BYTES: "5242880"
+      CV_TAILOR_MAX_PDF_PAGES:    "15"
+    volumes:
+      # Persist generated files across container restarts. Remove for fully
+      # ephemeral / privacy-preserving deployments.
+      - cv_tailor_outputs:/app/outputs
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    # Resource sane-defaults (tune for your host)
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 1.5G
+
+volumes:
+  cv_tailor_outputs:
